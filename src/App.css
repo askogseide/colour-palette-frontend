@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: #682c34;
+  background-color: #c0e8f9;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -15,7 +16,7 @@
 }
 
 .NavigationBar-header {
-  background-color: #282c34;
+  background-color: #635255;
   min-height: 5vh;
   display: flex;
   //flex-direction: row;
