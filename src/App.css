@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #682c34;
 }
 
 .App-logo {
@@ -11,6 +12,35 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.NavigationBar-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  //flex-direction: row;
+  align-items: center;
+  //justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  //padding: 0 5%;
+}
+
+.NavigationBar-header ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+}
+
+.NavigationBar-header li a{
+  margin-left: 3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.NavigationBar-header li a:hover
+ {
+  text-decoration: underline;
 }
 
 .App-header {

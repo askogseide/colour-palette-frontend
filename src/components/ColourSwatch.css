@@ -1,0 +1,29 @@
+.ColourSwatch-container {
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin: 1vh;
+    background-color: green;
+}
+
+.ColourSwatch-header {
+    min-height: 5vh;
+    max-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-color: blue;
+  }
+
+  .ColourSwatch-colour {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
